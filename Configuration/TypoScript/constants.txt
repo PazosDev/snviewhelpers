@@ -1,5 +1,0 @@
-plugin.tx_snviewhelpers.view {
-	templateRootPaths.default = EXT:snviewhelpers/Resources/Private/Templates/
-	partialRootPaths.default = EXT:snviewhelpers/Resources/Private/Partials/
-	layoutRootPaths.default = EXT:snviewhelpers/Resources/Private/Layouts/
-}
