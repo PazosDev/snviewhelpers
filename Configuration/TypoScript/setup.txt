@@ -1,0 +1,5 @@
+plugin.tx_snviewhelpers.view {
+	templateRootPaths.0 = {$plugin.tx_snviewhelpers.view.templateRootPaths.default}
+	partialRootPaths.0 = {$plugin.tx_snviewhelpers.view.partialRootPaths.default}
+	layoutRootPaths.0 = {$plugin.tx_snviewhelpers.view.layoutRootPaths.default}
+}
