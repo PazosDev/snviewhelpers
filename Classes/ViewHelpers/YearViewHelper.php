@@ -5,7 +5,7 @@ class YearViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBasedVi
     
     public function render()
         {
-            $content = "Hallo Claudio";
+            $content = date("Y");
             return $content;
         }
    }
