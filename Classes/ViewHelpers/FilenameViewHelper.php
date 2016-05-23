@@ -10,12 +10,8 @@ class FilenameViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBas
     * @param int $option
     **/
     
-    /**
-    Option 1 = Nur Dateiname
-    Option 2 = Nur Dateiendung
-    Option 3 = Dateiname + Endung    
-    **/
-    
+  
+ 
     public function render($filename, $option)
         {
             $explode = explode(".", $filename); 
