@@ -9,9 +9,10 @@ class FilenameViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBas
     * @param string $filename
     * @param int $option
     **/
-    
-  
- 
+    //Option 1 gibt Name aus
+    //Option 2 gibt Endung aus
+    //Option 3 gibt beides aus
+
     public function render($filename, $option)
         {
             $explode = explode(".", $filename); 
