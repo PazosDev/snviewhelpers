@@ -21,21 +21,16 @@ class PageinfosViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBa
            switch ($option)
            {
               case 1:
-                echo $GLOBALS[TSFE]->page[title];
+                echo "Seitentitel = ".$GLOBALS[TSFE]->page[title];
                 break;
               case 2:
-                echo $GLOBALS[TSFE]->page[uid];
+                echo "Seiten ID = ".$GLOBALS[TSFE]->page[uid];
                 break;
               case 3:
-                echo $GLOBALS[TSFE]->rootLine[0][title];  //NI
+                echo "Sprach ID = ".$GLOBALS[TSFE]->sys_language_content;
                 break;
               case 4:
-                echo "Seitentitel = ".$GLOBALS[TSFE]->page[title]."<br/>Seiten ID = ". $GLOBALS[TSFE]->page[uid];  
-                break;
-              case 5:                                   // Only for Debuging
-                echo "<pre>";
-                print_r($GLOBALS);
-                echo "</pre>";
+                echo "Seitentitel = ".$GLOBALS[TSFE]->page[title]."<br/>Seiten ID = ". $GLOBALS[TSFE]->page[uid]."<br/>Sprach ID = ".$GLOBALS[TSFE]->sys_language_content;  
                 break;
               default:
                 echo "Fehler";
