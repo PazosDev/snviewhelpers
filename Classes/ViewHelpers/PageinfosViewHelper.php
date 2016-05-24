@@ -8,6 +8,12 @@ class PageinfosViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBa
     * @param int $option
     **/
    
+   
+   // Optionen:
+   // 1 = Get only the Page-tItle
+   // 2 = Get only the Page-uid
+   // 3 = Get only the Language-id
+   // 4 = Get all Infos
     
     
     public function render($option)
@@ -26,7 +32,7 @@ class PageinfosViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBa
               case 4:
                 echo "Seitentitel = ".$GLOBALS[TSFE]->page[title]."<br/>Seiten ID = ". $GLOBALS[TSFE]->page[uid];  
                 break;
-              case 5:
+              case 5:                                   // Only for Debuging
                 echo "<pre>";
                 print_r($GLOBALS);
                 echo "</pre>";
