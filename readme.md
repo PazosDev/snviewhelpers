@@ -10,10 +10,10 @@ Todo
 - Dateinamen trennen (Filename und Extension) [Erledigt]
 - Lorem Ipsum Generator (mit Anzahl Zeichen) [Erledigt]
 - Random / Shuffle Array (Random Ausgabe von einem Array) [Erledigt]
-- SVG Fallback  (Dateiname als Parameter)
-                (*Dateityp (jpg/png) als Option)
-                (*optional kann alternativ name als parameter übergeben werden)
-                (Dateiname als rückgabewert)
+- SVG Fallback  (Dateiname als Parameter) [Erledigt]
+                (*Dateityp (jpg/png) als Option) [Erledigt]
+                (*optional kann alternativ name als parameter übergeben werden) [Erledigt]
+                (Dateiname als rückgabewert) [Erledigt]
  
 
 sesamnet ViewHelpers
@@ -27,12 +27,13 @@ Filename...
 Loremipsum...
 Pageinfos...
 Year...
+svg Fallback...
 ...Viewhelper
 
 
 
 
-### &lt;sn:year&gt;
+### sn:year
 
 ### Examples
 
@@ -94,5 +95,26 @@ not required
 
 
 
+#### sn:svg
 
+### Examples
+
+&lt;sn:svg filename="test.svg" /&gt;
+
+    no Option / Option 1 set alternate filetype to .jpg!
+    Option 2 set alternate filetypo to .png!
+    
+    if the filename diffrent to alternatename, use
+    &lt;sn:svg filename="test.svg" alternatename="nottest.jpg" /&gt;
+    else it take the same name like filename!
+    
+    the filename require the full path! like filename="fileadmin/bilde/feier/bild1.svg  
+
+
+### Attributes
+| Name          | Type      | Default value | Required  |
+|:--------------|:----------|:--------------|:----------|
+| filename      | string    |               | Yes       |
+| option        | int       | 1             | No        |
+| alternatename | string    | NULL          | No        |
 
