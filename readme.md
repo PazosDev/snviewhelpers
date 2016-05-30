@@ -31,7 +31,7 @@ Year...
 
 ### Examples
 
-&lt;sn:year/&gt;
+&lt;sn:year /&gt;
 
 
 
@@ -43,7 +43,7 @@ not required
 
 ### Examples
 
-&lt;sn:loremipsum anzahl="50"/&gt;
+&lt;sn:loremipsum anzahl="50" /&gt;
 
 
 
@@ -57,7 +57,7 @@ not required
 
 ### Examples
 
-&lt;sn:loremipsum filename="HalloWelt.apk" option="1"/&gt;
+&lt;sn:loremipsum filename="HalloWelt.apk" option="1" /&gt;
 
     Option 1 get Filename
     Option 2 get Filetype
@@ -74,7 +74,7 @@ not required
 
 ### Examples
 
-&lt;sn:pageinfos option="1"/&gt;
+&lt;sn:pageinfos option="1" /&gt;
 
     Option 1 get only the Page-title
     Option 2 get only the Page-uid
