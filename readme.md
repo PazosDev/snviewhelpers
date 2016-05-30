@@ -27,7 +27,7 @@ Year...
 
 
 
-### &lt;sn:year
+### &lt;sn:year&gt;
 
 ### Examples
 
