@@ -3,13 +3,18 @@ sesamnet ViewHelpers
 
 Todo
 ---------------
-- Sprach-ID
-- Seiten-ID
-- Jahr
-- Seitentitel
-- Dateinamen trennen (Filename und Extension)
-- Lorem Ipsum Generator (mit Anzahl Zeichen)
-- Random / Shuffle Array (Random Ausgabe von einem Array)
+- Sprach-ID [Erledigt]
+- Seiten-ID [Erledigt]
+- Jahr [Erledigt]
+- Seitentitel [Erledigt]
+- Dateinamen trennen (Filename und Extension) [Erledigt]
+- Lorem Ipsum Generator (mit Anzahl Zeichen) [Erledigt]
+- Random / Shuffle Array (Random Ausgabe von einem Array) [Erledigt]
+- SVG Fallback  (Dateiname als Parameter)
+                (*Dateityp (jpg/png) als Option)
+                (*optional kann alternativ name als parameter übergeben werden)
+                (Dateiname als rückgabewert)
+ 
 
 sesamnet ViewHelpers
 ===============================
