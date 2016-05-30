@@ -11,9 +11,7 @@ Todo
 - Lorem Ipsum Generator (mit Anzahl Zeichen) [Erledigt]
 - Random / Shuffle Array (Random Ausgabe von einem Array) [Erledigt]
 - SVG Fallback  (Dateiname als Parameter) [Erledigt]
-                (*Dateityp (jpg/png) als Option) [Erledigt]
-                (*optional kann alternativ name als parameter übergeben werden) [Erledigt]
-                (Dateiname als rückgabewert) [Erledigt]
+
  
 
 sesamnet ViewHelpers
