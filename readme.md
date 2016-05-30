@@ -75,11 +75,10 @@ not required
 ### Examples
 
 &lt;sn:pageinfos option="1"/&gt;
-
-   Option 1 Get only the Page-tItle<br/>
-   Option 2 Get only the Page-uid<br/>
-   Option 3 Get only the Language-id<br/>
-   Option 4 Get all Infos<br/>
+    Option 1 get only the Page-title
+    Option 2 get only the Page-uid
+    Option 3 get only the Language-id
+    Option 4 get all Infos
 
 ### Attributes
 | Name          | Type      | Default value | Required  |
