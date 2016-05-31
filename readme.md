@@ -106,7 +106,7 @@ not required
     <sn:svg filename="test.svg" alternatename="nottest.jpg" />
     else it take the same name like filename!
     
-    the filename require the full path! like filename="fileadmin/bilde/feier/bild1.svg  
+    the filename require the full path! like filename="fileadmin/bilder/feier/bild1.svg  
 
 
 ### Attributes
