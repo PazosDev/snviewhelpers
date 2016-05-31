@@ -61,7 +61,7 @@ not required
 
 ### Examples
 
-&lt;sn:loremipsum filename="HalloWelt.apk" option="1" /&gt;
+&lt;sn:filename filename="HalloWelt.apk" option="1" /&gt;
 
     Option 1 get Filename
     Option 2 get Filetype
